@@ -73,7 +73,7 @@ else
 fi
 echo "Inventory file updated successfully"
 
-
+ANSIBLE_CONFIG and ANSIBLE_INVENTORY
 
 
 
