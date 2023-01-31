@@ -73,7 +73,10 @@ else
 fi
 echo "Inventory file updated successfully"
 
-ANSIBLE_CONFIG and ANSIBLE_INVENTORY
+export ANSIBLE_CONFIG=~/Desktop/ansible.cfg
+export ANSIBLE_INVENTORY=~/Desktop/hosts
+
+Alternatively, you can add these lines to your shell profile file (e.g. .bashrc, .bash_profile, etc.) to persist the environment variables across terminal sessions.
 
 
 
